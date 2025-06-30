@@ -24,7 +24,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "2398082-s3-bucket" # Replace with a unique bucket name
+  bucket = "shailajas-s3-bucket" # Replace with a unique bucket name
 
   tags = {
     Project     = "StaticWebsiteDeployment"
